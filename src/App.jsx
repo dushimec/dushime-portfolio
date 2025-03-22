@@ -4,7 +4,6 @@ import Home from "./Pages/Home/Home";
 import Skills from "./Pages/Skills/Skills";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Process from "./Pages/Process/Process";
-import Login from "./Pages/Login/Login";
 import About from "./Pages/About/About"; // Assuming you’ll place About in Pages/About/About.jsx
 import Contact from "./components/ContactSection/ContactSection"; // Assuming Contact uses ContactSection
 import Layout from "./components/Layout/Layout";
@@ -39,10 +38,6 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
     ],
-  },
-  {
-    path: "/login",
-    element: <Login />,
   },
 ]);
 

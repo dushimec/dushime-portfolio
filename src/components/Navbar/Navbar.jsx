@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import useFirebaseAuth from "../../hooks/useFirebase";
+
 
 const Navbar = () => {
-  const { user, signOut } = useFirebaseAuth();
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation(); // To track the current route
 
