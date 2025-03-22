@@ -12,7 +12,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-3">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/dushime-christian-154b812a7/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-teal-light"
@@ -22,7 +22,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/dushimec"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-teal-light"

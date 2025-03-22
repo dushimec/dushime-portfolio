@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import logo from '../../images/logo.png';
 
 
 const Navbar = () => {
@@ -21,7 +22,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Brand */}
         <Link to="/" className="font-bold text-xl md:text-2xl text-teal-light hover:text-teal transition-colors">
-          DUSHIME Christian
+          <img src={logo} alt="DUSHIME Christian Logo" className="h-8 md:h-10" />
         </Link>
 
         {/* Desktop Menu */}

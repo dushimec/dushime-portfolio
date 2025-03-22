@@ -1,4 +1,5 @@
 import { FaCode, FaServer, FaRocket } from "react-icons/fa";
+import profile from '../../images/chriss.png'
 
 const About = () => {
   return (
@@ -28,7 +29,8 @@ const About = () => {
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg bg-teal-dark">
               {/* Placeholder for profile image */}
               <div className="absolute inset-0 flex items-center justify-center text-foreground opacity-50">
-                <FaServer className="w-20 h-20" />
+                                <img src={profile} alt="DUSHIME Christian" className="w-full h-full object-cover " />
+                
               </div>
             </div>
           </div>

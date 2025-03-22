@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaServer, FaCode } from "react-icons/fa";
+import profile from '../../images/chriss.png'
 
 const Home = () => {
   return (
@@ -42,10 +43,10 @@ const Home = () => {
               <div className="absolute inset-0 rounded-full overflow-hidden shadow-lg border-4 border-teal-dark z-10">
                 {/* Placeholder - Replace with your photo */}
                 <div className="w-full h-full bg-teal-dark flex items-center justify-center text-foreground opacity-50">
-                  <FaServer className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24" />
+                  {/* <FaServer className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24" /> */}
+                <img src={profile} alt="DUSHIME Christian" className="w-full h-full object-cover " />
                 </div>
                 {/* Uncomment and replace with your image */}
-                <img src="https://res.cloudinary.com/dzvxnmqnf/image/upload/v1719589831/products/qdha74fhnq1gkksr6ud9.jpg" alt="DUSHIME Christian" className="w-full h-full object-cover" />
               </div>
 
               {/* Circling Dots Animation */}
