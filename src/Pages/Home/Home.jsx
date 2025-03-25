@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { FaServer, FaCode } from "react-icons/fa";
 import profile from '../../images/chriss.png'
@@ -5,6 +6,17 @@ import profile from '../../images/chriss.png'
 const Home = () => {
   return (
     <div className="bg-background text-foreground min-h-screen py-8 px-4 sm:px-6 lg:px-8">
+      <Helmet>
+        <title>DUSHIME Christian - Full-Stack Developer</title>
+        <meta
+          name="description"
+          content="DUSHIME Christian is a Full-Stack Developer specializing in backend solutions. Explore my portfolio and contact me for scalable web applications."
+        />
+        <meta
+          name="keywords"
+          content="DUSHIME Christian, Full-Stack Developer, backend solutions, web development, portfolio, scalable applications"
+        />
+      </Helmet>
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-12">
         {/* Main Content */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 w-full">
