@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import profile from '../../images/chriss.png';
 
 const Footer = () => {
   return (
@@ -133,8 +134,27 @@ const Footer = () => {
                   Phone: +250 789 356 233
                 </a>
               </li>
-              <li>Location: Kigali, Rwanda</li>
+              <li>Location: Kabuga, Rwanda</li>
             </ul>
+            {/* Map with Profile Image Overlay */}
+            <div className="mt-4 relative">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31899.61525606182!2d30.206780053596564!3d-1.9734577818659966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19db59c017152edb%3A0x12d7de49de420585!2sKabuga!5e0!3m2!1sen!2srw!4v1742907620656!5m2!1sen!2srw"
+                width="100%"
+                height="200"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="My Location in Kabuga, Rwanda"
+              ></iframe>
+              {/* Profile Image Overlay */}
+              <img
+                src={profile} // Replace with your actual image path
+                alt="DUSHIME Christian Profile"
+                className="absolute bottom-2 right-2 w-12 h-12 rounded-full border-2 border-teal-light object-cover"
+              />
+            </div>
           </div>
         </div>
         <div className="border-t border-border mt-6 pt-4 text-center text-xs md:text-sm text-muted-foreground">
