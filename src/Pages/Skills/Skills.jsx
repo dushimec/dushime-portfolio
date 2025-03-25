@@ -12,33 +12,30 @@ const Skills = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-4 text-teal-light">Backend Development</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li>
-                <span className="font-semibold text-teal">Node.js</span> – Scalable, high-performance backend apps.
+                <span className="font-semibold text-teal">Node.js</span> – Scalable, high-performance backend apps with Express.js.
               </li>
               <li>
-                <span className="font-semibold text-teal">Express.js</span> – RESTful APIs & GraphQL endpoints.
+                <span className="font-semibold text-teal">API Design</span> – RESTful APIs, GraphQL, and Microservices.
               </li>
               <li>
                 <span className="font-semibold text-teal">Database Management</span>:
                 <ul className="mt-2 space-y-2 pl-5 text-sm">
                   <li className="flex items-start">
-                    <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">MongoDB</span> – NoSQL for fast storage & retrieval.
+                    <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">MongoDB</span> – NoSQL with Mongoose for fast storage & retrieval.
                   </li>
                   <li className="flex items-start">
-                    <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">MySQL / PostgreSQL</span> – Structured relational DBs.
+                    <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">MySQL</span> – Structured relational DBs with SQL expertise.
                   </li>
                   <li className="flex items-start">
-                    <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">Redis</span> – Caching for performance boosts.
+                    <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">Redis</span> – Caching for performance optimization.
                   </li>
                 </ul>
               </li>
               <li>
-                <span className="font-semibold text-teal">API Development</span> – Secure REST & GraphQL APIs.
+                <span className="font-semibold text-teal">Authentication & Security</span> – JWT, OAuth, OWASP best practices.
               </li>
               <li>
-                <span className="font-semibold text-teal">Authentication & Security</span> – JWT, OAuth, & more.
-              </li>
-              <li>
-                <span className="font-semibold text-teal">WebSocket</span> – Real-time communication.
+                <span className="font-semibold text-teal">Web Security</span> – Secure APIs and data handling.
               </li>
             </ul>
           </div>
@@ -48,7 +45,7 @@ const Skills = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-4 text-teal-light">Frontend Development</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li>
-                <span className="font-semibold text-teal">React.js</span> – Component-based UIs.
+                <span className="font-semibold text-teal">React.js</span> – Component-based UIs with TypeScript.
               </li>
               <li>
                 <span className="font-semibold text-teal">Redux</span> – Complex state management.
@@ -60,7 +57,7 @@ const Skills = () => {
                 <span className="font-semibold text-teal">Tailwind CSS</span> – Rapid, utility-first styling.
               </li>
               <li>
-                <span className="font-semibold text-teal">JavaScript (ES6+)</span> – Clean, modular code.
+                <span className="font-semibold text-teal">JavaScript (ES6+)</span> – Clean, modular code with TypeScript.
               </li>
             </ul>
           </div>
@@ -70,16 +67,16 @@ const Skills = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-4 text-teal-light">DevOps & Infrastructure</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li>
-                <span className="font-semibold text-teal">Docker</span> – Containerized deployments.
+                <span className="font-semibold text-teal">Docker</span> – Containerization for consistent deployments.
               </li>
               <li>
                 <span className="font-semibold text-teal">Kubernetes</span> – Scalable orchestration.
               </li>
               <li>
-                <span className="font-semibold text-teal">AWS</span> – Cloud infrastructure management.
+                <span className="font-semibold text-teal">Cloud Platforms</span> – AWS, Azure, Google Cloud, Vercel, Netlify.
               </li>
               <li>
-                <span className="font-semibold text-teal">CI/CD</span> – Pipelines with GitHub Actions, Jenkins, Travis CI.
+                <span className="font-semibold text-teal">CI/CD</span> – Pipelines with GitHub Actions, GitLab, PM2.
               </li>
               <li>
                 <span className="font-semibold text-teal">NGINX</span> – Reverse proxy & load balancing.
@@ -95,7 +92,10 @@ const Skills = () => {
                 <span className="font-semibold text-teal">Git</span> – Collaboration via GitHub, GitLab, Bitbucket.
               </li>
               <li>
-                <span className="font-semibold text-teal">Agile</span> – Scrum & Kanban methodologies.
+                <span className="font-semibold text-teal">Agile Development</span> – Scrum, Kanban, and best practices.
+              </li>
+              <li>
+                <span className="font-semibold text-teal">Team Collaboration</span> – Effective communication and issue tracking.
               </li>
             </ul>
           </div>
@@ -105,19 +105,19 @@ const Skills = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-4 text-teal-light">Other Skills</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li>
-                <span className="font-semibold text-teal">GraphQL</span> – Optimized data fetching.
+                <span className="font-semibold text-teal">Testing</span> – Unit testing, TDD with Jest, Mocha, Chai.
               </li>
               <li>
-                <span className="font-semibold text-teal">RESTful APIs</span> – Well-documented integrations.
+                <span className="font-semibold text-teal">Scalability</span> – Architecting performant, scalable systems.
               </li>
               <li>
-                <span className="font-semibold text-teal">Cloud Platforms</span> – AWS, Google Cloud, Azure.
+                <span className="font-semibold text-teal">Problem Solving</span> – Analytical skills for complex issues.
               </li>
               <li>
-                <span className="font-semibold text-teal">Performance</span> – Server & client-side optimization.
+                <span className="font-semibold text-teal">Documentation</span> – Clean code and clear technical docs.
               </li>
               <li>
-                <span className="font-semibold text-teal">Testing</span> – Jest, Mocha, Chai automation.
+                <span className="font-semibold text-teal">Soft Skills</span> – Leadership, adaptability, time management.
               </li>
             </ul>
           </div>

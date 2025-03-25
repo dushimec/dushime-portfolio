@@ -1,5 +1,5 @@
 import { FaCode, FaServer, FaRocket } from "react-icons/fa";
-import profile from '../../images/chriss.png'
+import profile from '../../images/chriss.png';
 
 const About = () => {
   return (
@@ -27,11 +27,7 @@ const About = () => {
           </div>
           <div className="flex justify-center">
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg bg-teal-dark">
-              {/* Placeholder for profile image */}
-              <div className="absolute inset-0 flex items-center justify-center text-foreground opacity-50">
-                                <img src={profile} alt="DUSHIME Christian" className="w-full h-full object-cover " />
-                
-              </div>
+              <img src={profile} alt="DUSHIME Christian" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -59,6 +55,35 @@ const About = () => {
               <h3 className="text-lg font-semibold mb-2 text-foreground">Full-Stack Versatility</h3>
               <p className="text-sm text-muted-foreground">
                 While backend is my forte, I deliver cohesive frontends to complete the user experience.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Experience */}
+        <div className="mb-16">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 text-center text-teal-light">Experience</h2>
+          <div className="space-y-6">
+            <div className="bg-card p-6 rounded-lg shadow-lg">
+              <h3 className="text-lg font-semibold text-foreground">Backend Developer at TeckVilla</h3>
+              <p className="text-sm text-muted-foreground italic">Current Role</p>
+              <p className="text-sm text-muted-foreground mt-2">
+                Developing and maintaining scalable backend systems, designing APIs, and ensuring optimal database
+                performance for innovative tech solutions.
+              </p>
+            </div>
+            <div className="bg-card p-6 rounded-lg shadow-lg">
+              <h3 className="text-lg font-semibold text-foreground">Full-Stack Developer</h3>
+              <p className="text-sm text-muted-foreground">
+                Worked on end-to-end development of web applications, integrating frontends with robust backend
+                architectures for seamless user experiences.
+              </p>
+            </div>
+            <div className="bg-card p-6 rounded-lg shadow-lg">
+              <h3 className="text-lg font-semibold text-foreground">Software Developer</h3>
+              <p className="text-sm text-muted-foreground">
+                Contributed to building efficient server-side logic and collaborated on projects requiring both
+                technical depth and creative problem-solving.
               </p>
             </div>
           </div>
