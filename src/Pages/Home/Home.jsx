@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="bg-background text-foreground min-h-screen py-8 px-4 sm:px-6 lg:px-8">
       <Helmet>
-        <title>DUSHIME Christian - Full-Stack Developer</title>
+        <title>DUSHIME Christian - Backend Developer</title>
         <meta
           name="description"
           content="DUSHIME Christian is a Full-Stack Developer specializing in backend solutions. Explore my portfolio and contact me for scalable web applications."
@@ -29,9 +29,7 @@ const Home = () => {
               Full-Stack Developer Specializing in Backend Solutions
             </p>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-md text-center md:text-left">
-              I build robust, scalable backend systems and seamless full-stack applications, with a passion for
-              optimizing performance and solving complex challenges.
-            </p>
+              I'm a backend developer specializing in JavaScript, with experience in other technologies like React, Node.js, and Express.js.
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 w-full">
               <Link
                 to="/portfolio"
