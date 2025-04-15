@@ -15,9 +15,8 @@ const About = () => {
           <div className="space-y-4">
             <h2 className="text-xl md:text-2xl font-bold text-teal-light">Who I Am</h2>
             <p className="text-sm md:text-base">
-              I’m DUSHIME Christian, a Full-Stack Software Developer with a strong focus on backend development, based in
-              Kigali, Rwanda. I’m passionate about building robust, scalable server-side systems while delivering
-              seamless full-stack solutions.
+              I’m DUSHIME Christian, a Backend development, based in
+              Kigali, Rwanda. I'm specializing in JavaScript, with experience in other technologies like React, Node.js, and Express.js. I love exploring new technologies and am always looking for ways to grow and improve my skills. I also enjoy sharing my knowledge with others and helping them kick-start their journey in the tech industry.
             </p>
             <p className="text-sm md:text-base">
               My expertise lies in crafting efficient APIs, managing databases, and optimizing performance, though I
