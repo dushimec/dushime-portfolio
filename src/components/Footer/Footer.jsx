@@ -13,7 +13,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-3">
               <a
-                href="https://www.linkedin.com/in/dushime-christian-154b812a7/"
+                href="https://www.linkedin.com/in/christian-dushime/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-teal-light"
@@ -37,7 +37,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/DushimeChr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-teal-light"
