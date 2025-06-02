@@ -30,6 +30,7 @@ const Home = () => {
             </p>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-md text-center md:text-left">
               I'm a backend developer specializing in JavaScript, with experience in other technologies like React, Node.js, and Express.js.
+              </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 w-full">
               <Link
                 to="/portfolio"
