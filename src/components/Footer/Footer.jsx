@@ -87,7 +87,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1wvbl8wEvUFd-pjPnVe4zpQTQMjRFOVKL/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1QogTnm3sx1MD-DuH7NByaXMBuYbOwQDe/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs md:text-sm text-teal hover:text-teal-light hover:underline flex items-center"
