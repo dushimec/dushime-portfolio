@@ -48,7 +48,7 @@ const Portfolio = () => {
       tags: ["backend", "flutterwave", "payment"],
       updated_at: "2025-03-25T00:00:00Z",
       isLive: true,
-      logo: "https://www.isuzume.rw/static/media/isuzume-official-logo.ebf1fb8ef1de35922f53.png", // Replace with actual logo URL
+      logo: "https://www.isuzume.rw/static/media/isuzume-official-logo.ebf1fb8ef1de35922f53.png",
     },
     {
       name: "TRAUMAHELPRWANDA",
@@ -58,8 +58,21 @@ const Portfolio = () => {
       tags: ["backend", "redux", "functionality"],
       updated_at: "2025-03-25T00:00:00Z",
       isLive: true,
-      logo: "https://thr.org.rw/assets/logo-tD9r3Hdz.png", // Replace with actual logo URL
+      logo: "https://thr.org.rw/assets/logo-tD9r3Hdz.png", 
     },
+    {
+  name: "CoRoute",
+  url: "https://www.coroute.ca/",
+  description: "A Canadian intercity carpooling platform where I implemented backend APIs for authentication, booking management, driver dashboards, payment integration, and real-time notifications.",
+  language: "JavaScript",
+  tags: ["backend", "payments", "API", "dashboard"],
+  updated_at: "2025-10-31T00:00:00Z",
+  isLive: true,
+  logo: "https://www.coroute.ca/assets/logo.png", 
+  backendDeployment: "AWS (PM2)",
+  frontendDeployment: "AWS",
+}
+
   ];
 
   useEffect(() => {
