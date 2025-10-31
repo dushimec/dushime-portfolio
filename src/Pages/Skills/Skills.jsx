@@ -12,10 +12,10 @@ const Skills = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-4 text-teal-light">Backend Development</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li>
-                <span className="font-semibold text-teal">Node.js</span> – Scalable, high-performance backend apps with Express.js.
+                <span className="font-semibold text-teal">Node.js & Express.js</span> – Scalable, high-performance backend applications.
               </li>
               <li>
-                <span className="font-semibold text-teal">API Design</span> – RESTful APIs, GraphQL, and Microservices.
+                <span className="font-semibold text-teal">API Design</span> – RESTful APIs, GraphQL, and Microservices architecture.
               </li>
               <li>
                 <span className="font-semibold text-teal">Database Management</span>:
@@ -24,7 +24,7 @@ const Skills = () => {
                     <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">MongoDB</span> – NoSQL with Mongoose for fast storage & retrieval.
                   </li>
                   <li className="flex items-start">
-                    <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">MySQL</span> – Structured relational DBs with SQL expertise.
+                    <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">PostgreSQL & MySQL</span> – Relational DB expertise with optimized queries.
                   </li>
                   <li className="flex items-start">
                     <span className="text-teal mr-2">•</span> <span className="font-semibold text-teal">Redis</span> – Caching for performance optimization.
@@ -32,32 +32,32 @@ const Skills = () => {
                 </ul>
               </li>
               <li>
-                <span className="font-semibold text-teal">Authentication & Security</span> – JWT, OAuth, OWASP best practices.
+                <span className="font-semibold text-teal">Authentication & Security</span> – JWT, OAuth, and OWASP best practices.
               </li>
               <li>
-                <span className="font-semibold text-teal">Web Security</span> – Secure APIs and data handling.
+                <span className="font-semibold text-teal">Web Security</span> – Secure APIs, data handling, and role-based access control.
               </li>
             </ul>
           </div>
 
           {/* Frontend Development */}
           <div className="bg-card p-6 rounded-lg shadow-lg">
-            <h2 className="text-xl md:text-2xl font-bold mb-4 text-teal-light">Frontend Development</h2>
+            <h2 className="text-xl md:text-2xl font-bold mb-4 text-teal-light">Frontend & Mobile Development</h2>
             <ul className="space-y-3 text-sm md:text-base">
               <li>
-                <span className="font-semibold text-teal">React.js</span> – Component-based UIs with TypeScript.
+                <span className="font-semibold text-teal">React.js & Redux</span> – Dynamic, responsive web interfaces.
               </li>
               <li>
-                <span className="font-semibold text-teal">Redux</span> – Complex state management.
+                <span className="font-semibold text-teal">Flutter</span> – Cross-platform mobile apps for iOS and Android.
               </li>
               <li>
-                <span className="font-semibold text-teal">HTML5, CSS3</span> – Responsive, modern designs.
+                <span className="font-semibold text-teal">HTML5 & CSS3</span> – Modern, responsive designs.
               </li>
               <li>
                 <span className="font-semibold text-teal">Tailwind CSS</span> – Rapid, utility-first styling.
               </li>
               <li>
-                <span className="font-semibold text-teal">JavaScript (ES6+)</span> – Clean, modular code with TypeScript.
+                <span className="font-semibold text-teal">JavaScript & TypeScript</span> – Clean, modular code.
               </li>
             </ul>
           </div>
@@ -117,7 +117,7 @@ const Skills = () => {
                 <span className="font-semibold text-teal">Documentation</span> – Clean code and clear technical docs.
               </li>
               <li>
-                <span className="font-semibold text-teal">Soft Skills</span> – Leadership, adaptability, time management.
+                <span className="font-semibold text-teal">Soft Skills</span> – Leadership, adaptability, and time management.
               </li>
             </ul>
           </div>
