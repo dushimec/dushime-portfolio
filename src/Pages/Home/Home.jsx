@@ -29,7 +29,7 @@ const Home = () => {
               Full-Stack Developer Specializing in Backend & Flutter Mobile Apps
             </p>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-md text-center md:text-left">
-              I'm a **Full-Stack Developer** focused on **Node.js, TypeScript, and MongoDB**, building scalable backend systems, modern web apps with React, and cross-platform mobile apps with Flutter.
+              I'm a Full-Stack Developer focused on Node.js, TypeScript, and MongoDB, building scalable backend systems, modern web apps with React, and cross-platform mobile apps with Flutter.
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 w-full">
               <Link
