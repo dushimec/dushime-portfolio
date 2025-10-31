@@ -88,7 +88,7 @@ const Navbar = () => {
             Contact Me
           </Link>
           <Link
-            to='https://drive.google.com/file/d/1wvbl8wEvUFd-pjPnVe4zpQTQMjRFOVKL/view?usp=drive_link'
+            to='https://drive.google.com/file/d/1QogTnm3sx1MD-DuH7NByaXMBuYbOwQDe/view?usp=drive_link'
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm md:text-base text-foreground hover:text-teal-light transition-colors"
@@ -179,7 +179,7 @@ const Navbar = () => {
             Contact Me
           </Link>
           <Link
-            to='https://drive.google.com/file/d/1wvbl8wEvUFd-pjPnVe4zpQTQMjRFOVKL/view?usp=drive_link'
+            to='https://drive.google.com/file/d/1QogTnm3sx1MD-DuH7NByaXMBuYbOwQDe/view?usp=drive_link'
             target="_blank"
             rel="noopener noreferrer"
             className="block px-4 py-2 hover:bg-teal-dark hover:text-foreground transition-colors"
