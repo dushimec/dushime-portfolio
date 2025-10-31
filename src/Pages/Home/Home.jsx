@@ -7,14 +7,14 @@ const Home = () => {
   return (
     <div className="bg-background text-foreground min-h-screen py-8 px-4 sm:px-6 lg:px-8">
       <Helmet>
-        <title>DUSHIME Christian - Backend Developer</title>
+        <title>DUSHIME Christian - Full-Stack Developer</title>
         <meta
           name="description"
-          content="DUSHIME Christian is a Full-Stack Developer specializing in backend solutions. Explore my portfolio and contact me for scalable web applications."
+          content="DUSHIME Christian is a Full-Stack Developer specializing in backend solutions and cross-platform mobile apps. Explore my portfolio and contact me for scalable web and mobile applications."
         />
         <meta
           name="keywords"
-          content="DUSHIME Christian, Full-Stack Developer, backend solutions, web development, portfolio, scalable applications"
+          content="DUSHIME Christian, Full-Stack Developer, backend solutions, Flutter, web development, mobile development, portfolio, scalable applications"
         />
       </Helmet>
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-12">
@@ -26,11 +26,11 @@ const Home = () => {
               DUSHIME Christian
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground text-center md:text-left">
-              Full-Stack Developer Specializing in Backend Solutions
+              Full-Stack Developer Specializing in Backend & Flutter Mobile Apps
             </p>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-md text-center md:text-left">
-              I'm a backend developer specializing in JavaScript, with experience in other technologies like React, Node.js, and Express.js.
-              </p>
+              I'm a **Full-Stack Developer** focused on **Node.js, TypeScript, and MongoDB**, building scalable backend systems, modern web apps with React, and cross-platform mobile apps with Flutter.
+            </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 w-full">
               <Link
                 to="/portfolio"
@@ -52,12 +52,9 @@ const Home = () => {
             <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80">
               {/* Profile Photo */}
               <div className="absolute inset-0 rounded-full overflow-hidden shadow-lg border-4 border-teal-dark z-10">
-                {/* Placeholder - Replace with your photo */}
                 <div className="w-full h-full bg-teal-dark flex items-center justify-center text-foreground opacity-50">
-                  {/* <FaServer className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24" /> */}
-                <img src={profile} alt="DUSHIME Christian" className="w-full h-full object-cover " />
+                  <img src={profile} alt="DUSHIME Christian" className="w-full h-full object-cover " />
                 </div>
-                {/* Uncomment and replace with your image */}
               </div>
 
               {/* Circling Dots Animation */}
@@ -78,21 +75,19 @@ const Home = () => {
           <div className="bg-card p-4 sm:p-6 rounded-lg shadow-lg flex flex-col items-center">
             <h3 className="text-base sm:text-lg font-semibold text-teal-light">Experienced Backend Developer</h3>
             <p className="text-xs sm:text-sm text-muted-foreground text-center">
-              I deliver high-performance backend systems using Node.js and Express.js, ensuring seamless integration
-              with databases and third-party services.
+              I deliver high-performance backend systems using Node.js and Express.js, ensuring seamless integration with databases and third-party services.
             </p>
           </div>
           <div className="bg-card p-4 sm:p-6 rounded-lg shadow-lg flex flex-col items-center">
-            <h3 className="text-base sm:text-lg font-semibold text-teal-light">Frontend Development Expertise</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-teal-light">Frontend & Mobile Expertise</h3>
             <p className="text-xs sm:text-sm text-muted-foreground text-center">
-              I create dynamic, responsive, and interactive user interfaces with React.js and Redux.
+              I create dynamic web interfaces with React.js and Redux, and cross-platform mobile apps using Flutter for seamless user experiences.
             </p>
           </div>
           <div className="bg-card p-4 sm:p-6 rounded-lg shadow-lg flex flex-col items-center">
             <h3 className="text-base sm:text-lg font-semibold text-teal-light">Comprehensive Solutions</h3>
             <p className="text-xs sm:text-sm text-muted-foreground text-center">
-              From setting up databases to structuring complex APIs, I ensure your applications run smoothly on both
-              client and server sides.
+              From backend APIs to mobile and web applications, I deliver scalable, reliable, and efficient full-stack solutions for diverse projects.
             </p>
           </div>
         </div>
