@@ -63,16 +63,15 @@ const Portfolio = () => {
     {
   name: "CoRoute",
   url: "https://www.coroute.ca/",
-  description: "A Canadian intercity carpooling platform where I implemented backend APIs for authentication, booking management, driver dashboards, payment integration, and real-time notifications.",
-  language: "JavaScript",
-  tags: ["backend", "payments", "API", "dashboard"],
+  description: "A Canadian intercity carpooling platform connecting drivers and passengers with real-time bookings, payment integration, and user dashboards.",
+  language: "TypeScript",
+  tags: ["backend", "payments", "API", "dashboard", "team"],
   updated_at: "2025-10-31T00:00:00Z",
   isLive: true,
-  logo: "https://www.coroute.ca/assets/logo.png", 
+  logo: "https://www.coroute.ca/logo/logo.png",
   backendDeployment: "AWS (PM2)",
   frontendDeployment: "AWS",
 }
-
   ];
 
   useEffect(() => {
